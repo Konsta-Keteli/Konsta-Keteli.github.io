@@ -428,12 +428,12 @@ a:focus {
 .contact_section {
   position: relative;
   background-color: #27223f;
-  color: $white;
+  color: #fff;
 
   .heading_container {
     justify-content: start;
 
-    h2 {
+    h2 
       &::before {
         text-align: left;
         left: 0;
@@ -484,7 +484,7 @@ a:focus {
     outline: none;
     border: none;
     color: $white;
-    background: #ff2953;
+    background: #efa066;
     margin: 45px 0 0 auto;
     text-transform: uppercase;
   }

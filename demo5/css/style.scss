@@ -2,7 +2,7 @@ $white: #ffffff;
 $black: #000000;
 $btnBlack: #151615;
 $btnWhite: #f4f3f3;
-$primary: #f8bc1a;
+$primary: #e90606;
 
 @mixin main-font {
     font-family: "Poppins", sans-serif;
@@ -71,13 +71,13 @@ body {
     display: flex;
     justify-content: center;
     text-align: center;
-    margin-bottom: 45px;
+    margin-bottom: 10px;
 
     h2 {
         font-weight: bold;
         display: flex;
         position: relative;
-        padding-bottom: 10px;
+        padding-bottom: 45px;
         margin: 0;
 
         &::before {
@@ -88,7 +88,7 @@ body {
             width: 60px;
             height: 7px;
             border-radius: 10px;
-            background-color: $primary;
+            background-color: #e90606;
             transform: translateX(-50%);
         }
     }
@@ -115,7 +115,7 @@ body {
 
     &.about_page {
         .slider_section {
-            background-color: #f8f8f8;
+            background-color: #4f07f8;
         }
     }
 
@@ -259,7 +259,7 @@ a:focus {
 
 .slider_section {
     height: calc(100% - 80px);
-    background-image: url(../images/slider-bg.jpg);
+    background-image: url(../images/hauis.jpg);
     background-size: cover;
 
     .slider_container {
@@ -324,13 +324,13 @@ a:focus {
             height: 14px;
             opacity: 1;
             background-color: transparent;
-            border: 2px solid $primary;
+            border: 2px solid #e90606;
             border-radius: 100%;
 
             &.active {
                 width: 18px;
                 height: 18px;
-                border: 3px solid $primary;
+                border: 3px solid #e90606;
             }
         }
 
@@ -563,7 +563,7 @@ a:focus {
                     width: 40px;
                     height: 4px;
                     border-radius: 10px;
-                    background-color: $primary;
+                    background-color: #e90606;
                     transform: translateX(-50%);
                 }
             }
@@ -599,8 +599,8 @@ a:focus {
 // result section
 
 .result_section {
-    color: $white;
-    background-color: #3c0e78;
+    color: #e90606;
+    background-color: #e90606;
 
     .row {
         align-items: center;
@@ -629,7 +629,7 @@ a:focus {
                 width: 40px;
                 height: 7px;
                 border-radius: 10px;
-                background-color: $primary;
+                background-color: #e90606;
             }
         }
 
@@ -681,7 +681,7 @@ a:focus {
 .contact_section input {
     border: none;
     outline: none;
-    border-bottom: 0.8px solid #ac9784;
+    border-bottom: 0.8px solid #fff;
     width: 90%;
     margin: 10px 0;
 
@@ -696,7 +696,7 @@ a:focus {
 
 .contact_form-container button {
     border: none;
-    background-color: #fd9e2e;
+    background-color: #e90606;
     color: #fff;
     padding: 14px 55px;
     font-size: 14px;
@@ -844,7 +844,7 @@ a:focus {
 }
 
 .footer_section a {
-    color: $white;
+    color: #e90606;
 }
 
 /* end footer section*/

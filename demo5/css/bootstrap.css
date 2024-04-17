@@ -10,8 +10,8 @@
   --purple: #6f42c1;
   --pink: #e83e8c;
   --red: #dc3545;
-  --orange: #fd7e14;
-  --yellow: #ffc107;
+  --orange: #e90606;
+  --yellow: #e90606;
   --green: #28a745;
   --teal: #20c997;
   --cyan: #17a2b8;
@@ -22,7 +22,7 @@
   --secondary: #6c757d;
   --success: #28a745;
   --info: #17a2b8;
-  --warning: #ffc107;
+  --warning: #e90606;
   --danger: #dc3545;
   --light: #f8f9fa;
   --dark: #343a40;
@@ -79,8 +79,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  margin-top: 0;
-  margin-bottom: 1rem;
+  margin-top: 250px;
+  margin-bottom: 100px;
 }
 
 abbr[title],
@@ -197,7 +197,6 @@ figure {
 
 img {
   vertical-align: middle;
-  border-style: none;
 }
 
 svg {
@@ -588,6 +587,7 @@ pre code {
 .row {
   display: -ms-flexbox;
   display: flex;
+  justify-content: space-around;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin-right: -15px;
